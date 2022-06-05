@@ -18,7 +18,7 @@ describe('wikipediaTemplate', function () {
       for (const [input, output] of data[group]) {
         const format = output.includes('\n') ? 'vertical' : 'horizontal'
         it(input.title, function () {
-          assert.deepStrictEqual(plugins.output.format('wikipediaTemplate', [input], { format } ), output)
+          assert.deepStrictEqual(plugins.output.format('wikipediaTemplate', [input], { format }), output)
         })
       }
     })

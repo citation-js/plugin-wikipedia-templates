@@ -368,7 +368,7 @@ const FIELD_MAPPING = [
   {
     source: 'type',
     target: ['genre', 'medium'],
-    convert: CONVERTERS.GENRE,
+    convert: CONVERTERS.GENRE
   },
   'language',
   'edition',
