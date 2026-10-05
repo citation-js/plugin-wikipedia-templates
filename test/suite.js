@@ -1,11 +1,10 @@
-/* eslint-env mocha */
+import assert from 'node:assert'
+import { describe, it } from 'node:test'
 
-import '../src/'
-
-import assert from 'assert'
 import { plugins } from '@citation-js/core'
+import '../src/index.js'
 
-import data from './data/'
+import data from './data/index.js'
 
 console.log(`
 These test cases are constructed from the examples in the documentation of the

@@ -1,16 +1,16 @@
-module.exports = {
-  'AV media': require('./av_media.js'),
-  book: require('./book.js'),
-  conference: require('./conference.js'),
-  encyclopedia: require('./encyclopedia.js'),
-  episode: require('./episode.js'),
-  interview: require('./interview.js'),
-  journal: require('./journal.js'),
-  map: require('./map.js'),
-  news: require('./news.js'),
-  report: require('./report.js'),
-  serial: require('./serial.js'),
-  speech: require('./speech.js'),
+export default {
+  'AV media': (await import('./av_media.js')).default,
+  book: (await import('./book.js')).default,
+  conference: (await import('./conference.js')).default,
+  encyclopedia: (await import('./encyclopedia.js')).default,
+  episode: (await import('./episode.js')).default,
+  interview: (await import('./interview.js')).default,
+  journal: (await import('./journal.js')).default,
+  map: (await import('./map.js')).default,
+  news: (await import('./news.js')).default,
+  report: (await import('./report.js')).default,
+  serial: (await import('./serial.js')).default,
+  speech: (await import('./speech.js')).default,
   '': [
     [
       {
