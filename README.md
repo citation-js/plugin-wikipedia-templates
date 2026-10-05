@@ -16,7 +16,11 @@ npm install @citation-js/plugin-wikipedia-templates
 
 ## Use
 
-Install the plugin by `require`-ing it:
+```js
+import '@citation-js/plugin-wikipedia-templates'
+```
+
+Or install the plugin by `require`-ing it:
 
 ```js
 require('@citation-js/plugin-wikipedia-templates')
