@@ -1,6 +1,6 @@
 {
   "name": "@citation-js/plugin-wikipedia-templates",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "description": "Output plugin for citation templates in Wikipedia",
   "main": "src/index.js",
